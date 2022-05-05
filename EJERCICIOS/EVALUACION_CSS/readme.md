@@ -149,11 +149,122 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
           INGRESA AQUI EL CÓDIGO HTML
           
-          
+                              <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Evaluación Final</title>
+                        <link rel="stylesheet" href="css/estilos.css">
+                    </head>
+                    <body>
+                        <header>
+                            <img src="img/logo.svg" alt="64px">
+                            <hr>
+                            <div id="menu">
+                                <nav>
+                                    <ul>
+                                        <li>Residentes</li>
+                                        <li>Negocios</li>
+                                        <li>Visitantes</li>
+                                        <li>Gobierno</li>
+                                    </ul>
+                                </nav>
+
+                            </div>
+
+                        </header>
+                        <main>
+
+                            <div id="texto">
+
+                                <p id="prin"><img src="img/hero-vector.svg" alt="">APRENDE A PROGRAMAR EN LAS ESCUELAS DE CÓDIGO  DE LA CDMX</p>
+                            </div>
+
+                        </main>
+                        <footer>
+                            <h3>¿Quién se puede inscribir?</h3>
+                            <div id="fo"> 
+                                <p id="uno"> <b>Cualquier persona que aprenda a programar código y cuente con 4 a 8 horas disponibles a la semana</b> </p> 
+                                <p id="dos">"Menores de edad deberán entrar a las instalaciones acompañados de un adulto</p>
+                            </div><p> 
+
+                        </footer>
+                    </body>
+                    </html>
           
           
           INGRESA AQUI EL CSS
           
-          
+                    *{
+                      margin: 0;
+                      padding: 0;
+                      font-family: Arial, Helvetica, sans-serif;
+                      list-style-type: none;
+                      text-decoration: none;
+                    }
+
+                    nav{
+                        width: 15%;
+
+                    }
+
+                    #menu{
+                        display: flex;
+                        justify-content: end;
+
+                    }
+                    ul{width: 100%;
+                        font-size: 10px;
+                        color: rgb(36, 133, 36);
+                        height: 30px;
+                        margin: 5px;
+                        padding: 5px;
+                        display: flex ;
+                        justify-content: space-around;
+                    }
+
+                    main{
+                        padding: 200px;
+                        background-image: url(../img/hero.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                    span{
+                        font-weight: bold;
+                    }
+                    #texto{
+                        display: flex;
+                        justify-content: flex-start;
+                    }
+
+                    #prin{
+                        width: 40%;
+                        color: white;
+                        font-size: 40px;
+                        display: flex;
+                        text-align: right;
+                    }
+
+                    footer{
+                        padding: 20px;
+                    }
+                    h3{
+                        color: rgb(231, 149, 73);
+                        display: flex;
+                        justify-content: center;
+                    }
+                    #uno{
+                        display: flex;
+                        justify-content: center;
+                    }
+                    #dos{
+                        display: flex;
+                        justify-content: center;
+                    }
+        
+         
           
  Ingresa el link a tu página del proyecto final
